@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+echo "Hey im called before pull"
+#exit
+
