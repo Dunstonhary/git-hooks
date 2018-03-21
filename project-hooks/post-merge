@@ -5,8 +5,10 @@ check_run() {
   echo "$changed_files" | grep --quiet "$1" && eval "$2"
 }
 check_run package.json "npm install"
-
-echo "===========Installed NPM  Dependencies==========="
+check_run project-hooks "npm start"
+echo ""
+echo "---------------Installed NPM  Dependencies---------------"
+echo ""
 
 #exit
 
