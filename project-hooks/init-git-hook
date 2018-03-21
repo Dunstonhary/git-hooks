@@ -22,4 +22,5 @@ done
 
 chmod +x $HOOK_DIR/*
 echo "symlinked all"
+echo "let see bingo"
 exit
