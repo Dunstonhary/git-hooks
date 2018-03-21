@@ -22,5 +22,4 @@ done
 
 chmod +x $HOOK_DIR/*
 echo "symlinked all"
-echo "hello world"
 exit
